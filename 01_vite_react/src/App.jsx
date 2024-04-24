@@ -1,6 +1,5 @@
-import { useState } from 'react'
 
-
+// In function we always capitalise the first letter of the function name
 function App() {
 
   return (
@@ -10,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default App // Exporting the function
