@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UserContextProvider from './Context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 
 function App() {
   
@@ -10,6 +12,8 @@ function App() {
   return (
     <UserContextProvider>
      <h1>React context</h1>
+     <Login />
+     <Profile />
     </UserContextProvider>
   )
 }
